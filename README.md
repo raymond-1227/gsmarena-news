@@ -1,6 +1,6 @@
 # GSMArena News Fetcher
 
-Originally developed by [@flandyw](https://github.com/flandyw). Reuploaded and maintained by me after the original repository was removed.
+Developed by [@flandyw](https://github.com/flandyw), currently maintained by me after the original repository was removed.
 
 ## About
 
