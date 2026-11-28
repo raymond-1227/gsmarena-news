@@ -2,18 +2,25 @@
   "name": "gsmarena-news",
   "version": "1.0.0",
   "description": "A Discord webhook that scrapes news from GSMArena",
-  "main": "index.js",
+  "module": "index.ts",
   "type": "module",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "bun index.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
-    "js"
+    "ts",
+    "bun"
   ],
   "author": "raymond-1227",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.2.0",
-    "discord.js": "^14.28.1"
+    "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "typescript": "^5.9.0"
   }
 }
